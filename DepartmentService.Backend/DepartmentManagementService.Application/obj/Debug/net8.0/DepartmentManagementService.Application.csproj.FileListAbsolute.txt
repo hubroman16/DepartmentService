@@ -26,3 +26,4 @@ C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\Departme
 C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentManagementService.Application\bin\Debug\net8.0\DepartmentStatusService.Application.pdb
 C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentManagementService.Application\bin\Debug\net8.0\DepartmentStatusService.Domain.pdb
 C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentManagementService.Application\bin\Debug\net8.0\DepartmentStatusService.Persistence.pdb
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentManagementService.Application\obj\Debug\net8.0\DepartmentManagementService.Application.sourcelink.json

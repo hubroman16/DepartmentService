@@ -61,26 +61,37 @@ namespace DepartmentManagementService.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<DepartmentResponse>> GetAllDepartments()
+        public async Task<ActionResult<IEnumerable<DepartmentResponse>>> GetAllDepartments([FromQuery] string name = null)
         {
-            var departments = await _service.GetAllAsync();
-            var rootDepartments = departments.Where(d => d.ParentId == null);
-
-            var departmentResponses = rootDepartments.Select(d => MapToResponse(d)).ToList();
-
-            foreach (var department in departmentResponses)
+            try
             {
-                try
+                var departments = string.IsNullOrEmpty(name)
+                    ? await _service.GetAllAsync()
+                    : (await _service.GetAllAsync()).Where(d => d.Name.Contains(name, StringComparison.OrdinalIgnoreCase));
+                
+
+                var departmentResponses = departments.Select(d => MapToResponse(d)).ToList();
+                
+                foreach (var department in departmentResponses)
                 {
-                    department.Status = await _statusClient.GetStatusAsync(department.Id);
+                    try
+                    {
+                        department.Status = await _statusClient.GetStatusAsync(department.Id);
+                    }
+                    catch (Exception ex)
+                    {
+                        _logger.LogError(ex, "Error retrieving status for department {DepartmentId}", department.Id);
+                        department.Status = "Error";
+                    }
                 }
-                catch (Exception ex)
-                {
-                    _logger.LogError(ex, "Error retrieving status for department {DepartmentId}", department.Id);
-                    department.Status = "Error";
-                }
+
+                return Ok(departmentResponses);
             }
-            return departmentResponses;
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error retrieving departments.");
+                return StatusCode(500, "An error occurred while retrieving departments.");
+            }
         }
 
         [HttpGet("{id}")]

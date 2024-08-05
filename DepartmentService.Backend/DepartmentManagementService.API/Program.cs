@@ -22,7 +22,7 @@ builder.Services.AddScoped<IDepartmentStatusClientService, DepartmentStatusClien
 builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
 builder.Services.AddScoped<IHttpClientService, HttpClientService>();
 
-builder.Services.AddHttpClient<IDepartmentStatusClientService, DepartmentStatusClientService>(client =>
+builder.Services.AddHttpClient<IHttpClientService, HttpClientService>(client =>
 {
     client.BaseAddress = new Uri(builder.Configuration["DepartmentStatusService:BaseUrl"]); 
 });
