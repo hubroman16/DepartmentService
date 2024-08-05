@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "GE1p9A4xrB87dU/TClGiawTx+MLyyQyjNTMZc7uS9TM=",
+  "Source": "DepartmentManagementService.API",
+  "BasePath": "_content/DepartmentManagementService.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\roman\\Documents\\моя визитка\\csharp\\DepartmentService\\DepartmentService.Backend\\DepartmentStatusService.API\\DepartmentStatusService.API.csproj",
+      "Version": 2,
+      "Source": "DepartmentStatusService.API",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

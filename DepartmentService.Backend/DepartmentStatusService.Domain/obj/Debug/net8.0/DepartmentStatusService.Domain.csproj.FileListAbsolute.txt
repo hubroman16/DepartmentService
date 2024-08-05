@@ -1,0 +1,11 @@
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Domain\bin\Debug\net8.0\DepartmentStatusService.Domain.deps.json
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Domain\bin\Debug\net8.0\DepartmentStatusService.Domain.dll
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Domain\bin\Debug\net8.0\DepartmentStatusService.Domain.pdb
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Domain\obj\Debug\net8.0\DepartmentStatusService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Domain\obj\Debug\net8.0\DepartmentStatusService.Domain.AssemblyInfoInputs.cache
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Domain\obj\Debug\net8.0\DepartmentStatusService.Domain.AssemblyInfo.cs
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Domain\obj\Debug\net8.0\DepartmentStatusService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Domain\obj\Debug\net8.0\DepartmentStatusService.Domain.dll
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Domain\obj\Debug\net8.0\refint\DepartmentStatusService.Domain.dll
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Domain\obj\Debug\net8.0\DepartmentStatusService.Domain.pdb
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Domain\obj\Debug\net8.0\ref\DepartmentStatusService.Domain.dll

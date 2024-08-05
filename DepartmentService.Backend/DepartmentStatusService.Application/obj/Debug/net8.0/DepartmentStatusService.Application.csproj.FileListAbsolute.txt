@@ -1,0 +1,15 @@
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Application\bin\Debug\net8.0\DepartmentStatusService.Application.deps.json
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Application\bin\Debug\net8.0\DepartmentStatusService.Application.dll
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Application\bin\Debug\net8.0\DepartmentStatusService.Application.pdb
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Application\bin\Debug\net8.0\DepartmentStatusService.Domain.dll
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Application\bin\Debug\net8.0\DepartmentStatusService.Domain.pdb
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Application\obj\Debug\net8.0\DepartmentStatusService.Application.csproj.AssemblyReference.cache
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Application\obj\Debug\net8.0\DepartmentStatusService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Application\obj\Debug\net8.0\DepartmentStatusService.Application.AssemblyInfoInputs.cache
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Application\obj\Debug\net8.0\DepartmentStatusService.Application.AssemblyInfo.cs
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Application\obj\Debug\net8.0\DepartmentStatusService.Application.csproj.CoreCompileInputs.cache
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Application\obj\Debug\net8.0\Departme.BBF35EE3.Up2Date
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Application\obj\Debug\net8.0\DepartmentStatusService.Application.dll
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Application\obj\Debug\net8.0\refint\DepartmentStatusService.Application.dll
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Application\obj\Debug\net8.0\DepartmentStatusService.Application.pdb
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Application\obj\Debug\net8.0\ref\DepartmentStatusService.Application.dll

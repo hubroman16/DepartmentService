@@ -1,0 +1,17 @@
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Persistence\bin\Debug\net8.0\DepartmentStatusService.Persistence.deps.json
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Persistence\bin\Debug\net8.0\DepartmentStatusService.Persistence.runtimeconfig.json
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Persistence\bin\Debug\net8.0\DepartmentStatusService.Persistence.dll
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Persistence\bin\Debug\net8.0\DepartmentStatusService.Persistence.pdb
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Persistence\bin\Debug\net8.0\DepartmentStatusService.Domain.dll
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Persistence\bin\Debug\net8.0\DepartmentStatusService.Domain.pdb
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Persistence\obj\Debug\net8.0\DepartmentStatusService.Persistence.csproj.AssemblyReference.cache
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Persistence\obj\Debug\net8.0\DepartmentStatusService.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Persistence\obj\Debug\net8.0\DepartmentStatusService.Persistence.AssemblyInfoInputs.cache
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Persistence\obj\Debug\net8.0\DepartmentStatusService.Persistence.AssemblyInfo.cs
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Persistence\obj\Debug\net8.0\DepartmentStatusService.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Persistence\obj\Debug\net8.0\Departme.B2CCF851.Up2Date
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Persistence\obj\Debug\net8.0\DepartmentStatusService.Persistence.dll
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Persistence\obj\Debug\net8.0\refint\DepartmentStatusService.Persistence.dll
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Persistence\obj\Debug\net8.0\DepartmentStatusService.Persistence.pdb
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Persistence\obj\Debug\net8.0\DepartmentStatusService.Persistence.genruntimeconfig.cache
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentStatusService.Persistence\obj\Debug\net8.0\ref\DepartmentStatusService.Persistence.dll

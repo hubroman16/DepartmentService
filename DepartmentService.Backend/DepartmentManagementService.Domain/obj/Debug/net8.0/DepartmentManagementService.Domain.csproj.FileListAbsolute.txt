@@ -1,0 +1,11 @@
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentManagementService.Domain\bin\Debug\net8.0\DepartmentManagementService.Domain.deps.json
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentManagementService.Domain\bin\Debug\net8.0\DepartmentManagementService.Domain.dll
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentManagementService.Domain\bin\Debug\net8.0\DepartmentManagementService.Domain.pdb
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentManagementService.Domain\obj\Debug\net8.0\DepartmentManagementService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentManagementService.Domain\obj\Debug\net8.0\DepartmentManagementService.Domain.AssemblyInfoInputs.cache
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentManagementService.Domain\obj\Debug\net8.0\DepartmentManagementService.Domain.AssemblyInfo.cs
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentManagementService.Domain\obj\Debug\net8.0\DepartmentManagementService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentManagementService.Domain\obj\Debug\net8.0\DepartmentManagementService.Domain.dll
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentManagementService.Domain\obj\Debug\net8.0\refint\DepartmentManagementService.Domain.dll
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentManagementService.Domain\obj\Debug\net8.0\DepartmentManagementService.Domain.pdb
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentManagementService.Domain\obj\Debug\net8.0\ref\DepartmentManagementService.Domain.dll
