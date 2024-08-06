@@ -9,3 +9,4 @@ C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\Departme
 C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentManagementService.Domain\obj\Debug\net8.0\refint\DepartmentManagementService.Domain.dll
 C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentManagementService.Domain\obj\Debug\net8.0\DepartmentManagementService.Domain.pdb
 C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentManagementService.Domain\obj\Debug\net8.0\ref\DepartmentManagementService.Domain.dll
+C:\Users\roman\Documents\моя визитка\csharp\DepartmentService\DepartmentService.Backend\DepartmentManagementService.Domain\obj\Debug\net8.0\DepartmentManagementService.Domain.sourcelink.json

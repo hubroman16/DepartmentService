@@ -24,6 +24,7 @@ namespace DepartmentManagementService.Controllers
             _logger = logger;
         }
 
+        // Синхронизация подразделений
         [HttpPost("sync")]
         public async Task<IActionResult> SyncDepartments(IFormFile file)
         {
@@ -60,6 +61,7 @@ namespace DepartmentManagementService.Controllers
             return Ok("Synchronization completed successfully.");
         }
 
+        // Получение всех подразделений со статусами
         [HttpGet]
         public async Task<ActionResult<IEnumerable<DepartmentResponse>>> GetAllDepartments([FromQuery] string name = null)
         {
@@ -68,22 +70,23 @@ namespace DepartmentManagementService.Controllers
                 var departments = string.IsNullOrEmpty(name)
                     ? await _service.GetAllAsync()
                     : (await _service.GetAllAsync()).Where(d => d.Name.Contains(name, StringComparison.OrdinalIgnoreCase));
-                
 
-                var departmentResponses = departments.Select(d => MapToResponse(d)).ToList();
-                
-                foreach (var department in departmentResponses)
+                var departmentResponses = await Task.WhenAll(departments.Select(async d =>
                 {
+                    var response = MapToResponse(d);
                     try
                     {
-                        department.Status = await _statusClient.GetStatusAsync(department.Id);
+                        response.Status = await _statusClient.GetStatusAsync(d.Id);
+                        response.Children = await GetChildrenStatuses(d.Children);
                     }
                     catch (Exception ex)
                     {
-                        _logger.LogError(ex, "Error retrieving status for department {DepartmentId}", department.Id);
-                        department.Status = "Error";
+                        _logger.LogError(ex, "Error retrieving status for department {DepartmentId}", d.Id);
+                        response.Status = "Error";
+                        response.Children = await GetChildrenStatuses(d.Children);
                     }
-                }
+                    return response;
+                }));
 
                 return Ok(departmentResponses);
             }
@@ -94,6 +97,33 @@ namespace DepartmentManagementService.Controllers
             }
         }
 
+        // Получение статусов дочерних подразделений
+        private async Task<List<DepartmentResponse>> GetChildrenStatuses(IEnumerable<Department> children)
+        {
+            var childResponses = new List<DepartmentResponse>();
+            if (children != null)
+            {
+                foreach (var child in children)
+                {
+                    var childResponse = MapToResponse(child);
+                    try
+                    {
+                        childResponse.Status = await _statusClient.GetStatusAsync(child.Id);
+                        childResponse.Children = await GetChildrenStatuses(child.Children);
+                    }
+                    catch (Exception ex)
+                    {
+                        _logger.LogError(ex, "Error retrieving status for child department {DepartmentId}", child.Id);
+                        childResponse.Status = "Error";
+                        childResponse.Children = await GetChildrenStatuses(child.Children);
+                    }
+                    childResponses.Add(childResponse);
+                }
+            }
+            return childResponses;
+        }
+
+        // Получение подразделения по айди
         [HttpGet("{id}")]
         public async Task<ActionResult<DepartmentResponse>> GetByID(Guid id)
         {
@@ -117,6 +147,7 @@ namespace DepartmentManagementService.Controllers
             return response;
         }
 
+        // Добавление подразделения
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] DepartmentRequest departmentRequest)
         {
@@ -143,6 +174,7 @@ namespace DepartmentManagementService.Controllers
             return CreatedAtAction(nameof(GetByID), new { id = department.Id }, departmentResponse);
         }
 
+        // Изменение подразделения
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(Guid id, [FromBody] DepartmentRequest departmentRequest)
         {
@@ -160,6 +192,7 @@ namespace DepartmentManagementService.Controllers
             return NoContent();
         }
 
+        // Удаление подразделения
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(Guid id)
         {
@@ -176,6 +209,7 @@ namespace DepartmentManagementService.Controllers
             return NoContent();
         }
 
+        // Мэппинг ответа
         private DepartmentResponse MapToResponse(Department department)
         {
             return new DepartmentResponse
